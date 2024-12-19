@@ -6,7 +6,7 @@ class Bib extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("Bibliography
+      body: Text('Bibliography
 
 Honadmin. "Egyptian Social Classes and Society: How Exactly Did It Work?" History, 16 Feb. 2023, www.historyonthenet.com/egyptian-social-classes.
 This source let me learn more about the social class of Egyptians. It clearly explains what Nobles did and how they help. In all this information help me understand Egyptian Nobles.\n
@@ -20,7 +20,7 @@ My Secondary Sources:\n
 https://historylink101.com/n/egypt_1
 
 https://irp-cdn.multiscreensite.com/04cd93d4/files/uploaded/Y3%20History%20Lesson%204%20Social%20Groups.pdf
-"),
+'),
     );
   }
 }
