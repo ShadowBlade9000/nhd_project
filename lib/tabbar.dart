@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:nhd_project/bib.dart';
 /// Flutter code sample for [TabBar].
 
 class TabBarApp extends StatelessWidget {
@@ -34,7 +34,7 @@ class TabBarExample extends StatelessWidget {
                 icon: Icon(Icons.beach_access_sharp),
               ),
               Tab(
-                icon: Icon(Icons.brightness_5_sharp),
+                icon: Icon(Icons.description),
               ),
             ],
           ),
@@ -48,7 +48,7 @@ class TabBarExample extends StatelessWidget {
               child: Text("It's rainy here"),
             ),
             Center(
-              child: Text("It's sunny here"),
+              child: Bib(),
             ),
           ],
         ),
