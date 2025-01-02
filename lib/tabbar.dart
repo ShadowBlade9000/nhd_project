@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nhd_project/bib.dart';
+import 'package:nhd_project/info.dart';
 /// Flutter code sample for [TabBar].
 
 class TabBarApp extends StatelessWidget {
@@ -24,14 +25,14 @@ class TabBarExample extends StatelessWidget {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('TabBar Sample'),
+          title: const Text('National History Day Website'),
           bottom: const TabBar(
             tabs: <Widget>[
               Tab(
                 icon: Icon(Icons.cloud_outlined),
               ),
               Tab(
-                icon: Icon(Icons.beach_access_sharp),
+                icon: Icon(Icons.info),
               ),
               Tab(
                 icon: Icon(Icons.description),
@@ -39,17 +40,13 @@ class TabBarExample extends StatelessWidget {
             ],
           ),
         ),
-        body: const TabBarView(
+        body:  TabBarView(
           children: <Widget>[
             Center(
-              child: Text("It's cloudy here"),
+              child: Text("It's sunny here"),
             ),
-            Center(
-              child: Text("It's rainy here"),
-            ),
-            Center(
-              child: Bib(),
-            ),
+            Info(),
+            Bib(),
           ],
         ),
       ),
