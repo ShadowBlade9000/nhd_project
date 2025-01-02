@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nhd_project/bib.dart';
 import 'package:nhd_project/info.dart';
-/// Flutter code sample for [TabBar].
 
 class TabBarApp extends StatelessWidget {
   const TabBarApp({super.key});
@@ -9,6 +8,7 @@ class TabBarApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
       home: const TabBarExample(),
     );
