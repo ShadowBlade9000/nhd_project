@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nhd_project/bib.dart';
 import 'package:nhd_project/info.dart';
+import 'package:nhd_project/image.dart';
 
 class TabBarApp extends StatelessWidget {
   const TabBarApp({super.key});
@@ -29,7 +30,7 @@ class TabBarExample extends StatelessWidget {
           bottom: const TabBar(
             tabs: <Widget>[
               Tab(
-                icon: Icon(Icons.cloud_outlined),
+                icon: Icon(Icons.image),
               ),
               Tab(
                 icon: Icon(Icons.info),
@@ -42,9 +43,7 @@ class TabBarExample extends StatelessWidget {
         ),
         body:  TabBarView(
           children: <Widget>[
-            Center(
-              child: Text("It's sunny here"),
-            ),
+            K(),
             Info(),
             Bib(),
           ],

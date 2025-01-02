@@ -12,7 +12,7 @@ Widget build(BuildContext context) {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            Text('Bibliography', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
+            Text('Bibliography', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),),
             Container(height: 10),
             Text(
 '''
@@ -38,7 +38,7 @@ This website told me about ancient egyptians and what they did in ancient egypt.
 Multiscreensite, irp-cdn.multiscreensite.com/04cd93d4/files/uploaded/Y3 History Lesson 4 Social Groups.pdf. Accessed 19 Dec. 2024. 
 
 This source helped me grasp the idea of rights and responsibilities for Egyptian nobles better. And how most Egyptians lived in ancient times.
-''', style: TextStyle(fontSize: 15, height: 1.3),),
+''', style: TextStyle(fontSize: 15, height: 1.3, fontWeight: FontWeight.bold),),
           ],
         ),
       ),
