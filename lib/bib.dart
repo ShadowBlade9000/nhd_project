@@ -5,8 +5,7 @@ class Bib extends StatelessWidget {
 
   @override
 Widget build(BuildContext context) {
-  return Expanded(
-    child: Container(
+  return Container(
       margin: EdgeInsets.symmetric(horizontal: 24, vertical: 20),
       constraints: BoxConstraints(maxWidth: 800),
       child: SingleChildScrollView(
@@ -42,7 +41,7 @@ This source helped me grasp the idea of rights and responsibilities for Egyptian
           ],
         ),
       ),
-    )
+    
   );
 }
 }

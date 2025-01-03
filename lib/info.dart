@@ -5,8 +5,7 @@ class Info extends StatelessWidget {
 
   @override
 Widget build(BuildContext context) {
-  return Expanded(
-    child: Container(
+  return Container(
       margin: EdgeInsets.symmetric(horizontal: 24, vertical: 20),
       constraints: BoxConstraints(maxWidth: 800),
       child: SingleChildScrollView(
@@ -36,7 +35,6 @@ Some main Egyptian nobles are Ramesses I, Ramesses III, Ramesses VI, Setnakhte, 
           ],
         ),
       ),
-    )
-  );
+    );
 }
 }
