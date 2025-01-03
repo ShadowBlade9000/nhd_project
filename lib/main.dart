@@ -4,5 +4,3 @@ import 'package:nhd_project/tabbar.dart';
 void main() {
   runApp(TabBarApp());
 }
-
-

@@ -9,6 +9,7 @@ class TabBarApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'National History Day Website',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
       home: const TabBarExample(),
