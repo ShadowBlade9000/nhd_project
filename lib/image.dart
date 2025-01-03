@@ -14,7 +14,7 @@ Widget build(BuildContext context) {
           children: [
             Text('Images', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),),
             Container(height: 10),
-            Image.asset('assets/images/egypt.jpg', width: 800,),
+            Image.network('https://cdn-cdaac.nitrocdn.com/tFOqLIaMYIaFjSGNUoYXbEDiJHtqbEtH/assets/images/optimized/rev-0596f3a/www.historyonthenet.com/wp-content/uploads/2014/07/society_pyramid.jpg', width: 800,),
             Text('placeholder', style: TextStyle(fontSize: 15, height: 1.3),),
           ],
         ),
