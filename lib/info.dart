@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
 class Info extends StatelessWidget {
-  Info({super.key});
+  const Info({super.key});
 
   @override
 Widget build(BuildContext context) {
   return Container(
-      margin: EdgeInsets.symmetric(horizontal: 24, vertical: 20),
-      constraints: BoxConstraints(maxWidth: 800),
+      margin: const EdgeInsets.symmetric(horizontal: 24, vertical: 20),
+      constraints: const BoxConstraints(maxWidth: 800),
       child: SingleChildScrollView(
         child: Column(
           children: [
-            Text('Rights and Responsibilities of Ancient Egyptian Nobles', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),),
+            const Text('Rights and Responsibilities of Ancient Egyptian Nobles', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),),
             Container(height: 10),
-            Text('In 3100 BC-642AD Egyptians had rights and responsibilities but nobles have more rights with more responsibilities which lead to rights and responsibilities today. A notable nobel is Ramesses who fought for the rights and responsibilities, and for the kingdom of Egypt and won keeping Egypt alive.', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
-            Text(
+            const Text('In 3100 BC-642AD Egyptians had rights and responsibilities but nobles have more rights with more responsibilities which lead to rights and responsibilities today. A notable nobel is Ramesses who fought for the rights and responsibilities, and for the kingdom of Egypt and won keeping Egypt alive.', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+            const Text(
 '''
 
 Heart of the Story:
