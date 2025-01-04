@@ -25,7 +25,7 @@ Widget build(BuildContext context) {
           children: [
             const Text('Bibliography', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),),
             Container(height: 10),
-            TextWithHyperlinks(),
+            const TextWithHyperlinks(),
           ],
         ),
       ),
@@ -96,21 +96,15 @@ class TextWithHyperlinks extends StatelessWidget {
             text: '\nThis source helped me learn that Nobles collected taxes. The Nobles also had many servants. The Nobles would have servants that would make them extravagant food.\n\n',
           ),
           const TextSpan(
-            text: 'Book: Assmann, Jan. The Mind of Egypt: History and Meaning in the Time of the Pharaohs.',
+            text: '"Egyptian Social Structure [ushistory.org]." US History, ',
             style: TextStyle(
               fontStyle: FontStyle.italic,
               fontSize: 16,
             ),
           ),
-          const TextSpan(
-            text: ' Recording for the Blind & Dyslexic, 2002.\n\n',
-          ),
-          const TextSpan(
-            text: '''This was a good book and I learned about pharaohs and nobles. It told me about the rights of Egyptian nobles.\n\n''',
-          ),
           // Actual URL
           TextSpan(
-            text: 'https://historylink101.com/n/egypt_1',
+            text: 'https://www.ushistory.org/civ/3b.asp',
             style: const TextStyle(
               color: Colors.blue,
               decoration: TextDecoration.underline,
@@ -122,14 +116,15 @@ class TextWithHyperlinks extends StatelessWidget {
               },
           ),
           const TextSpan(
-            text: ' Ancient Egypt, historylink101.com/n/egypt_1. Accessed 19 Dec. 2024.\n\n',
+            text: '\n   This source helped me learn that the Egyptians thought that the pharaohs were equivalent to gods. And that Egyptians\n\n',
           ),
+          //done
           const TextSpan(
-            text: '''This website told me about ancient Egyptians and what they did in ancient Egypt. And what their responsibilities were.\n\n''',
+            text: '''Book: Assmann, Jan. The Mind of Egypt: History and Meaning in the Time of the Pharaohs. Recording for the Blind & Dyslexic, 2002.''',
           ),
           // Actual URL
           TextSpan(
-            text: 'https://irp-cdn.multiscreensite.com/04cd93d4/files/uploaded/Y3 History Lesson 4 Social Groups.pdf',
+            text: '',
             style: const TextStyle(
               color: Colors.blue,
               decoration: TextDecoration.underline,
@@ -141,10 +136,10 @@ class TextWithHyperlinks extends StatelessWidget {
               },
           ),
           const TextSpan(
-            text: ' irp-cdn.multiscreensite.com/04cd93d4/files/uploaded/Y3 History Lesson 4 Social Groups.pdf. Accessed 19 Dec. 2024.\n\n',
+            text: '\n   This was a good book and I learned about pharaohs and nobles. It told me about the rights of egyptian nobles\n\n',
           ),
           const TextSpan(
-            text: '''This source helped me grasp the idea of rights and responsibilities for Egyptian nobles better. And how most Egyptians lived in ancient times.''',
+            text: '''need add more''',
           ),
         ],
       ),

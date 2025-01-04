@@ -42,7 +42,7 @@ class TabBarExample extends StatelessWidget {
             ],
           ),
         ),
-        body:  TabBarView(
+        body:  const TabBarView(
           children: <Widget>[
             K(),
             Info(),
