@@ -77,14 +77,17 @@ class TextWithHyperlinks extends StatelessWidget {
               },
           ),
           const TextSpan(
-            text: '\n   This source let me learn more about the social class of Egyptians. It clearly explains what Nobles did and how they help. In all this information help me understand Egyptian Nobles.\n\n',
+            text: '\nAn image of a society pyramid of Egyptian classes.\n\n\n',
           ),
-          const TextSpan(
-            text: '''"West Legon, Ghana: A Guide to This Vibrant Neighborhood – Kingsgate LifestyleKingsgate Lifestyle." Kingsgate Entertainment - Accommodation & Venue - Thohoyandou, ''',
-          ),
+          WidgetSpan(
+            child: Image.network('https://i0.wp.com/egypt-museum.com/wp-content/uploads/2023/11/Ancient-Egyptian-Nobleman.jpg'),
+            ),
           // Actual URL
+          const TextSpan(
+            text: '''\n'''
+          ),
           TextSpan(
-            text: 'https://mykingsgate.co.za/info/nobles-in-ancient-egypt-1679',
+            text: 'https://i0.wp.com/egypt-museum.com/wp-content/uploads/2023/11/Ancient-Egyptian-Nobleman.jpg?w=682&ssl=1',
             style: const TextStyle(
               color: Colors.blue,
               decoration: TextDecoration.underline,
@@ -92,75 +95,12 @@ class TextWithHyperlinks extends StatelessWidget {
             ),
             recognizer: TapGestureRecognizer()
               ..onTap = () {
-                _launchURL('https://www.ushistory.org/civ/3b.asp');
+                _launchURL('https://i0.wp.com/egypt-museum.com/wp-content/uploads/2023/11/Ancient-Egyptian-Nobleman.jpg?w=682&ssl=1');
               },
           ),
           const TextSpan(
-            text: '\nThis source helped me learn that Nobles collected taxes. The Nobles also had many servants. The Nobles would have servants that would make them extravagant food.\n\n',
+            text: '\nAn carved image of a Egyptian Nobleman.\n\n',
           ),
-          const TextSpan(
-            text: '"Egyptian Social Structure [ushistory.org]." US History, ',
-            style: TextStyle(
-              fontStyle: FontStyle.italic,
-              fontSize: 16,
-            ),
-          ),
-          // Actual URL
-          TextSpan(
-            text: 'https://www.ushistory.org/civ/3b.asp',
-            style: const TextStyle(
-              color: Colors.blue,
-              decoration: TextDecoration.underline,
-              fontSize: 16,
-            ),
-            recognizer: TapGestureRecognizer()
-              ..onTap = () {
-                _launchURL('https://historylink101.com/n/egypt_1');
-              },
-          ),
-          const TextSpan(
-            text: '\n   This source helped me learn that the Egyptians thought that the pharaohs were equivalent to gods. And that Egyptians\n\n',
-          ),
-          //done
-          const TextSpan(
-            text: '''Book: Assmann, Jan. The Mind of Egypt: History and Meaning in the Time of the Pharaohs. Recording for the Blind & Dyslexic, 2002.''',
-          ),
-          // Actual URL
-          TextSpan(
-            text: '',
-            style: const TextStyle(
-              color: Colors.blue,
-              decoration: TextDecoration.underline,
-              fontSize: 16,
-            ),
-            recognizer: TapGestureRecognizer()
-              ..onTap = () {
-                _launchURL('https://irp-cdn.multiscreensite.com/04cd93d4/files/uploaded/Y3 History Lesson 4 Social Groups.pdf');
-              },
-          ),
-          const TextSpan(
-            text: '\n   This was a good book and I learned about pharaohs and nobles. It told me about the rights of egyptian nobles\n\n',
-          ),
-          const TextSpan(
-            text: '''“Ancient Egypt Culture.” Ancient Egypt, ''',
-          ),
-          // Actual URL
-          TextSpan(
-            text: 'https://historylink101.com/n/egypt_1',
-            style: const TextStyle(
-              color: Colors.blue,
-              decoration: TextDecoration.underline,
-              fontSize: 16,
-            ),
-            recognizer: TapGestureRecognizer()
-              ..onTap = () {
-                _launchURL('https://www.history.com/news/ancient-egypt-culture');
-              },
-          ),
-          const TextSpan(
-            text: '\n   This website told me about ancient egyptians and what they did in ancient egypt. And what their responsibilities were.\n\n',
-          ),
-          
         ],
       ),
     );
