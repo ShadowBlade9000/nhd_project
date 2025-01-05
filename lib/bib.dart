@@ -62,7 +62,7 @@ class TextWithHyperlinks extends StatelessWidget {
           ),
           // Actual URL
           TextSpan(
-            text: 'https://www.historyonthenet.com/egyptian-social-classes.',
+            text: 'https://www.historyonthenet.com/egyptian-social-classes',
             style: const TextStyle(
               color: Colors.blue,
               decoration: TextDecoration.underline,
@@ -70,7 +70,7 @@ class TextWithHyperlinks extends StatelessWidget {
             ),
             recognizer: TapGestureRecognizer()
               ..onTap = () {
-                _launchURL('https://mykingsgate.co.za/info/nobles-in-ancient-egypt-1679');
+                _launchURL('https://www.historyonthenet.com/egyptian-social-classes');
               },
           ),
           const TextSpan(
@@ -81,7 +81,7 @@ class TextWithHyperlinks extends StatelessWidget {
           ),
           // Actual URL
           TextSpan(
-            text: 'https://mykingsgate.co.za/info/nobles-in-ancient-egypt-1679',
+            text: 'https://historylink101.com/n/egypt_1/a-nobles.htm',
             style: const TextStyle(
               color: Colors.blue,
               decoration: TextDecoration.underline,
@@ -89,7 +89,7 @@ class TextWithHyperlinks extends StatelessWidget {
             ),
             recognizer: TapGestureRecognizer()
               ..onTap = () {
-                _launchURL('https://www.ushistory.org/civ/3b.asp');
+                _launchURL('https://historylink101.com/n/egypt_1/a-nobles.htm');
               },
           ),
           const TextSpan(
@@ -112,7 +112,7 @@ class TextWithHyperlinks extends StatelessWidget {
             ),
             recognizer: TapGestureRecognizer()
               ..onTap = () {
-                _launchURL('https://historylink101.com/n/egypt_1');
+                _launchURL('https://www.ushistory.org/civ/3b.asp');
               },
           ),
           const TextSpan(
@@ -132,15 +132,32 @@ class TextWithHyperlinks extends StatelessWidget {
             ),
             recognizer: TapGestureRecognizer()
               ..onTap = () {
-                _launchURL('https://irp-cdn.multiscreensite.com/04cd93d4/files/uploaded/Y3 History Lesson 4 Social Groups.pdf');
+                _launchURL('https://irp-cdn.multiscreensite.com/04cd93d4/files/uploaded/Y3');
               },
           ),
           const TextSpan(
             text: '\n   This was a good book and I learned about pharaohs and nobles. It told me about the rights of egyptian nobles\n\n',
           ),
           const TextSpan(
-            text: '''need add more''',
+            text: '''“Ancient Egypt Culture.” Ancient Egypt, ''',
           ),
+          // Actual URL
+          TextSpan(
+            text: 'https://historylink101.com/n/egypt_1',
+            style: const TextStyle(
+              color: Colors.blue,
+              decoration: TextDecoration.underline,
+              fontSize: 16,
+            ),
+            recognizer: TapGestureRecognizer()
+              ..onTap = () {
+                _launchURL('https://historylink101.com/n/egypt_1');
+              },
+          ),
+          const TextSpan(
+            text: '\n   This website told me about ancient egyptians and what they did in ancient egypt. And what their responsibilities were.\n\n',
+          ),
+          
         ],
       ),
     );
