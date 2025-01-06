@@ -157,7 +157,7 @@ class TextWithHyperlinks extends StatelessWidget {
           const TextSpan(
             text: '\n   This website told me about ancient egyptians and what they did in ancient egypt. And what their responsibilities were.\n\n',
           ),
-          TextSpan(
+          const TextSpan(
             text: '''Multiscreensite, Accessed 19 Dec. 2024, '''
           ),
           TextSpan(
@@ -172,7 +172,7 @@ class TextWithHyperlinks extends StatelessWidget {
                 _launchURL('https://irp-cdn.multiscreensite.com/04cd93d4/files/uploaded/Y3%20History%20Lesson%204%20Social%20Groups.pdf');
               },
           ),
-          TextSpan(
+          const TextSpan(
             text: '''\n   This source helped me grasp the idea of rights and responsibilities for Egyptian nobles better. And how most Egyptians lived in ancient times.'''
           ),
         ],
