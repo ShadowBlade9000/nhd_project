@@ -27,7 +27,8 @@ Short-Term Effect:
 Right after a noble is chosen the pharaoh would introduce them to a big room and have a feast welcoming them. The positive outcome of a new noble being chosen is that if the old nobles were corrupt the new one is not corrupt. The negative is that the nobles do not know what to do and the people have to get used to him. When a new noble is selected the noble usually owns lots of land.
 
 Long-Term Effect:
-The long term effect of the nobles being chosen in Egypt has affected the government from then on because the effect caused the Romans and other governments to have noblemen to help the king's rule. 
+The long term effect of the nobles being chosen in Egypt has affected the government from then on because the effect caused the Romans and other governments to have noblemen to help the king's rule.
+
 Build-up:
 Some main Egyptian nobles are Ramesses I, Ramesses III, Ramesses VI, Setnakhte, Ramesses IX, Robert II, Neferirkare Kakai, and Ahmose. The nobles got ready for ruling by commanding their slaves and learning how the government works. The events that led up to a nobleman being chosen were as follows. They would need to be related to the pharaoh or have a lot of money, they would have to own a lot of land with slaves to tend to it, and they would have to be at least twenty years old. 
 
